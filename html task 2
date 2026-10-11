@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgba(35, 197, 35, 0.943);
+        }
+        h1{
+            text-align: center;
+        }
+        button{
+            background-color: darkblue;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }                
+    </style>
+</head>
+<body>
+    <h1>Health</h1>
+    <h2><h>Time to Get Healthy &Active</h></h2>
+    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    
+    <img src="https://www.halfyourplate.ca/wp-content/uploads/2024/02/Heart-Fruit-Smaller-1024x1024.jpg" width="400px"/>
+
+    <br><br>
+    <button>Read More</button>
+
+    <h3>By using this website, you automatically accept that we use cookies. Leran more about our <a href="">Privacy and cookies Policy</a></h3>
+
+    <button>Accept</button>   
+</body>
+</html>
