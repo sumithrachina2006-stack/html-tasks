@@ -1,0 +1,160 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // //if-else
+        // a=1;
+        // if(a==10){
+        //       document.write("a is good");
+        // }
+        // else{
+        //     document.write("not good");
+        // }
+        
+
+        //if,else if
+        a=12;
+    //     if(a>13){
+    //         document.write("a is successfull");
+
+    //     }
+    //     else if(a<15){
+    //         document.write("unsuccessfull");
+
+    //     }
+    //     else{
+    //         document.write("bye");
+    //     }
+        //nested if else
+        // username="sumithra"
+        // password="sumithra abc";
+        // user=  prompt("enter username ");
+        // pass= prompt("enter password");
+        
+        // if (user==username){
+        //     document.write("user name is correct", "<br>");
+        //     if (pass==password){
+        //         document.write("password is correct");
+
+        //     }
+        // }
+        // else{
+        //     document.write("invalid username")
+
+        // }
+         
+        //     document.write("invalid username");
+
+            //switch
+            // a=6;
+            // switch(a){
+            //     case 0:
+            //         document.write("sunday","<br>");
+            //     case 1:
+            //         document.write("monday","<br>");
+            //     case 2:
+            //         document.write("tuesday","<br>");
+            //     case 3:
+            //         document.write("wednesday","<br>");
+            //     case 4:
+            //         document.write("thursday","<br>");
+                   
+            //     case 5:
+            //         document.write("friday","<br>");
+            //     case 6:
+            //         document.write("saturday","<br>");
+    //                     break;
+    //                 default:
+    //                     document.write("invalid days");
+    // }               
+
+            // for loop
+            // for (i=1;i<=10;i++){
+            //     document.write(i,"<br>");
+            // }  
+            
+            // a=['a','b',12,3]
+        
+            // document.write(a[0],"<br>");
+            // document.write(a[1],"<br>");
+            // document.write(a[2],"<br>");
+            // document.write(a[3],"<br>");
+             
+            // document.write(a.length,"<br>");
+            // for(i=0;i<a.length;i++){
+            //     document.write(a[i],"<br>");
+            // }
+
+            // a=[1,2,3,4,5,6,7,8,9,10,"keerthi"]
+            // for(i of a){
+            //     document.write(i,"<br>");
+
+            // }
+            // for(i=10;i>=1;i--){
+            //     document.write(a,"<br>");
+
+            // }
+
+            // a=1;
+            // while(a<10){
+            // document.write(a,"<br>");
+            // a++;
+            // }
+
+            // a=10;
+            // while(a>0){
+            //     document.write(a,"<br>");
+            //     a--;
+            // }
+
+            // do while
+            a=10;
+            do{
+                document.write(a,"<br>");
+                a--;
+            } while(a>8)
+
+            // jumping
+            for(i=1;i<=10;i++){
+                if(i==5){
+                    break;
+                }
+            }
+
+            document.write(i,"<br>");
+            for(i=1;i<=10;i++){
+                if(i==5){
+                    continue;
+                }
+            }    
+        document.write(i,"<br>");
+        
+
+        //array
+        a=[];
+        a[0]=25;
+        a[1]=45;
+        a[2]=65;
+        a[3]=6;
+
+        document.write(a,"<br>");
+
+        //object
+        a=newArray(1,2,3,4,5);
+        document.write(a,"<br>");
+        for(i of a){
+            document.write(i,"<br>");
+        }
+
+        
+            
+        
+        
+     </script>
+</body>
+</html>
